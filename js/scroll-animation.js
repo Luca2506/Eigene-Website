@@ -1,17 +1,24 @@
- // Alle Icons selektieren
+
+// scroll-animation.js
 const icons = document.querySelectorAll('.circle-icon');
 
-// Scroll-Event
-window.addEventListener('scroll', () => {
-  icons.forEach(icon => {
-    const rect = icon.getBoundingClientRect();
-    const triggerPoint = window.innerHeight * 0.8;
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      } else {
+        entry.target.classList.remove('active');
+      }
+    });
+  },
+  {
+    threshold: 0.5, // 0.5 = 50% im Sichtbereich (Mitte des Bildschirms)
+  }
+);
 
-    if (rect.top < triggerPoint) {
-      icon.classList.add('active');
-    } else {
-      icon.classList.remove('active');
-    }
-  });
+icons.forEach((icon) => {
+  observer.observe(icon);
 });
+
 

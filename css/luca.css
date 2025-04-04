@@ -2,18 +2,16 @@
  body {
     margin: 0;
     padding: 0;
-    background-image: url("assets/image/volleyball_feld.svg");
-    background-size: cover; /* oder: contain */
+    background-image: url("../assets/image/volleyball_feld.svg");
+    background-size: cover; /* füllt den Body */
     background-repeat: no-repeat;
-    background-position: center center;
-    height: 100vh;
-  }
-  
+    background-position: center top;
+    height: 200vh; /* doppelte Höhe */
+  }  
+
   header {
     text-align: center;
     padding: 50px 20px;
-    background: #dfe6e9;
-    color: #2d3436;
   }
   
   .icon-section {
@@ -28,7 +26,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: white;
+    background: rgb(255, 255, 255);
     border: 2px solid #636e72;
     display: flex;
     align-items: center;
@@ -49,6 +47,40 @@
     bottom: -30px;
     font-size: 0.9em;
     color: #555;
+  }
+
+  .icon-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 140px; /* vorher: 80px – jetzt mehr Abstand nach unten */
+    padding: 120px 20px;
+  }
+  
+  
+  .circle-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #636e72;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s ease;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Zickzack-Effekt */
+  .circle-icon:nth-child(even) {
+    align-self: flex-end;
+    margin-right: 20%;
+  }
+  
+  .circle-icon:nth-child(odd) {
+    align-self: flex-start;
+    margin-left: 20%;
   }
   
   /* Effekt beim Scrollen */
