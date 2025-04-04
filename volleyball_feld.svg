@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1921 2161">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #046695;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-5 {
+        opacity: 0;
+      }
+
+      .cls-6 {
+        fill: #f17f3b;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x=".5" y=".5" width="1920" height="2160"/>
+  <g>
+    <polygon class="cls-6" points="465.5 2073.51 465.5 83.51 1455.5 85.49 1455.5 2075.49 465.5 2073.51"/>
+    <path class="cls-2" d="M470.5,88.52l980,1.96v1980l-980-1.96V88.52M460.5,78.5v2000l1000,2V80.5l-1000-2h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-6" x="465.5" y="752.5" width="990" height="656"/>
+    <path class="cls-2" d="M1450.5,757.5v646H470.5v-646h980M1460.5,747.5H460.5v666h1000v-666h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-2" x="211" y="1076" width="1499" height="9"/>
+    <path d="M1709.5,1076.5v8H211.5v-8h1498M1710.5,1075.5H210.5v10h1500v-10h0Z"/>
+  </g>
+  <rect class="cls-4" x=".5" y=".5" width="1920" height="2160"/>
+  <polyline class="cls-3" points="1660.5 757.5 1630.5 757.5 1630.5 747.5 1660.5 747.5"/>
+  <rect class="cls-2" x="1600.5" y="747.5" width="15" height="10"/>
+  <g class="cls-5">
+    <rect class="cls-2" x="1570.5" y="747.5" width="30" height="10"/>
+  </g>
+  <rect class="cls-2" x="1540.5" y="747.5" width="30" height="10"/>
+  <g class="cls-5">
+    <rect class="cls-2" x="1510.5" y="747.5" width="30" height="10"/>
+  </g>
+  <rect class="cls-2" x="1480.5" y="747.5" width="30" height="10"/>
+  <g class="cls-5">
+    <rect class="cls-2" x="1450.5" y="747.5" width="30" height="10"/>
+  </g>
+  <polyline class="cls-2" points="310.5 757.5 310.5 747.5 325.5 747.5 325.5 757.5 310.5 757.5"/>
+  <g class="cls-5">
+    <rect class="cls-2" x="325.5" y="747.5" width="30" height="10"/>
+  </g>
+  <rect class="cls-2" x="355.5" y="747.5" width="30" height="10"/>
+  <g class="cls-5">
+    <rect class="cls-2" x="385.5" y="747.5" width="30" height="10"/>
+  </g>
+  <rect class="cls-2" x="415.5" y="747.5" width="30" height="10"/>
+  <g class="cls-5">
+    <polyline class="cls-2" points="475.5 757.5 445.5 757.5 445.5 747.5 475.5 747.5"/>
+  </g>
+  <polyline class="cls-2" points="306.5 1413.5 306.5 1403.5 321.5 1403.5 321.5 1413.5 306.5 1413.5"/>
+  <g class="cls-5">
+    <rect class="cls-2" x="321.5" y="1403.5" width="30" height="10"/>
+  </g>
+  <rect class="cls-2" x="351.5" y="1403.5" width="30" height="10"/>
+  <g class="cls-5">
+    <rect class="cls-2" x="381.5" y="1403.5" width="30" height="10"/>
+  </g>
+  <rect class="cls-2" x="411.5" y="1403.5" width="30" height="10"/>
+  <g class="cls-5">
+    <polyline class="cls-2" points="471.5 1413.5 441.5 1413.5 441.5 1403.5 471.5 1403.5"/>
+  </g>
+  <polyline class="cls-2" points="1612.5 1403.5 1612.5 1413.5 1597.5 1413.5 1597.5 1403.5 1612.5 1403.5"/>
+  <g class="cls-5">
+    <rect class="cls-2" x="1567.5" y="1403.5" width="30" height="10"/>
+  </g>
+  <rect class="cls-2" x="1537.5" y="1403.5" width="30" height="10"/>
+  <g class="cls-5">
+    <rect class="cls-2" x="1507.5" y="1403.5" width="30" height="10"/>
+  </g>
+  <rect class="cls-2" x="1477.5" y="1403.5" width="30" height="10"/>
+  <g class="cls-5">
+    <polyline class="cls-2" points="1447.5 1403.5 1477.5 1403.5 1477.5 1413.5 1447.5 1413.5"/>
+  </g>
+</svg>
