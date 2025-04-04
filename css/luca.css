@@ -6,7 +6,7 @@
     background-size: cover; /* füllt den Body */
     background-repeat: no-repeat;
     background-position: center top;
-    height: 200vh; /* doppelte Höhe */
+    height:100vh; /* doppelte Höhe */
   }  
 
   header {
